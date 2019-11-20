@@ -49,3 +49,32 @@ magentodb
 - password123
 
 
+Issues
+----
+
+```md
+Re: Can't see Admin Login Page in Magento 2.3 stable release 
+It seems that you are using Windows! Magento does not officially support Windows.
+
+This is not an official solution but can fix this issue for using Magento on a Windows machine for development and testing purposes.
+
+1- Open this file:
+
+vendor\magento\framework\View\Element\Template\File\Validator.php
+
+2- Search for this line (around line 138 on version 2.3):
+
+$realPath = $this->fileDriver->getRealPath($path);
+3- Replace it with this line: 
+
+$realPath = str_replace("\\", "/", $this->fileDriver->getRealPath($path));
+ 
+
+This is a very common issue, Many people are not aware of the fact that Magento does not officially support Windows servers! some hacks and un-official modifications such as this one needs to be done in order to make it work on a Windows machine, If you visit the below link "Magento 2.3.x technology stack requirements" you can see that the only supported OS is "Linux x86-64".
+
+https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements-tech.html
+
+I hope this helps and solves your issue.
+```
+
+
