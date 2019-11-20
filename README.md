@@ -48,6 +48,12 @@ magentodb
 - domgarcia.fp@gmail.com
 - password123
 
+Deployment
+----
+php bin/magento cache:clean
+php bin/magento setup:static-content:deploy -f en_US
+php bin/magento deploy:mode:set developer
+
 
 Issues
 ----
