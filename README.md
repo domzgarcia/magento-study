@@ -2,6 +2,10 @@
 
 List of common modules and extension servers not yet configured.
 
+[DLL]
+----
+- C:\laragon\bin\php\php-7.2.11-Win32-VC15-x86\ext
+
 [module] 
 ----
 - mod_rewrite 
@@ -16,4 +20,5 @@ List of common modules and extension servers not yet configured.
 
 [httpd]
 ----
-- LoadModule version_module modules/mod_version.so 
+- C:\laragon\bin\apache\httpd-2.4.25-win32-VC14\conf\httpd.conf | LoadModule version_module modules/mod_version.so 
+- C:\laragon\etc\apache2\sites-enabled | C:\laragon\etc\nginx\sites-enabled
