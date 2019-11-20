@@ -1,6 +1,6 @@
 # key takeaways 
 
-List of common modules and extension a server would not be installed/set.
+List of common modules and extension servers not yet configured.
 
 [module] 
 ----
