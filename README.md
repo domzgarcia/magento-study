@@ -29,3 +29,4 @@ download
 https://magento.com/tech-resources/download
 
 - Use credential seen on https://marketplace.magento.com/customer/accessKeys/
+- Using Composer | composer create-project --repository=https://repo.magento.com/ magento/project-community-edition <projname>
