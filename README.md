@@ -23,3 +23,9 @@ List of common modules and extension servers not yet configured.
 - See C:\laragon\bin\apache\httpd-2.4.25-win32-VC14\conf\httpd.conf
 - Uncomment "LoadModule version_module modules/mod_version.so" and "LoadModule rewrite_module modules/mod_rewrite.so"
 - Restart C:\laragon\etc\apache2\sites-enabled | C:\laragon\etc\nginx\sites-enabled
+
+download
+----
+https://magento.com/tech-resources/download
+
+- Use credential seen on https://marketplace.magento.com/customer/accessKeys/
