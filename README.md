@@ -11,4 +11,5 @@ List of common modules and extension a server would not be installed/set.
 ----
 - ext-intl  (✓) 
 - soap      (✓) 
-- opcache   (✓)
+- opcache   (x) should have add something like this inside php.ini "zend_extension="C:\laragon\bin\php\php-7.2.11-Win32-VC15-x86\ext\php_opcache.dll" "
+- enable common opcache config ~ https://www.cloudways.com/blog/integrate-php-opcache/ 
