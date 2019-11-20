@@ -18,7 +18,7 @@ List of common modules and extension servers not yet configured.
 - opcache   (x) should have add something like this inside php.ini "zend_extension="C:\laragon\bin\php\php-7.2.11-Win32-VC15-x86\ext\php_opcache.dll" "
 - enable common opcache config ~ https://www.cloudways.com/blog/integrate-php-opcache/ 
 
-[httpd]
+[httpd] to change load modules such mod_version, mod_rewrite
 ----
 - See C:\laragon\bin\apache\httpd-2.4.25-win32-VC14\conf\httpd.conf
 - Uncomment "LoadModule version_module modules/mod_version.so"
