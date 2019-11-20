@@ -20,5 +20,6 @@ List of common modules and extension servers not yet configured.
 
 [httpd]
 ----
-- C:\laragon\bin\apache\httpd-2.4.25-win32-VC14\conf\httpd.conf | LoadModule version_module modules/mod_version.so 
-- C:\laragon\etc\apache2\sites-enabled | C:\laragon\etc\nginx\sites-enabled
+- See C:\laragon\bin\apache\httpd-2.4.25-win32-VC14\conf\httpd.conf
+- Uncomment "LoadModule version_module modules/mod_version.so"
+- Restart C:\laragon\etc\apache2\sites-enabled | C:\laragon\etc\nginx\sites-enabled
