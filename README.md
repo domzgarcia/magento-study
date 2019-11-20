@@ -2,7 +2,11 @@
 
 [module] 
 ----
-- mod_rewrite mod_version (x)  
+
+List of common modules and extension a server would not be installed/set.
+
+- mod_rewrite 
+- mod_version (x)  
 
 [extensions]
 ----
