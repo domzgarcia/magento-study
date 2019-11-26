@@ -47,6 +47,7 @@ magentodb
 - domsgarcia
 - domgarcia.fp@gmail.com
 - password123
+- magento 111!2
 
 Deployment
 ----
